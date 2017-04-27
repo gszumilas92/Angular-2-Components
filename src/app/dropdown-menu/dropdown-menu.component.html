@@ -1,0 +1,22 @@
+<div class="wrap main-menu">
+  <div 
+    class="col-center"
+    *ngFor="let menu of menu; let i = index; let last = last"
+    [ngClass]="{ last: last }">
+    <div
+      class="btn-menu col-center"
+      (click)="dropdownToggle(i)">
+        {{menu}}
+    </div>
+    <div
+      [@visibility]="visibility[i]"
+      class="dropdown-content" style="opacity: 0; display: none;">
+      <div
+          class="sub-menu col-center"
+          *ngFor="let i = index;let submenu of subMenu[i]; let last = last;"
+          [ngClass]="{ last: last }">
+        {{submenu}}
+      </div>
+    </div>
+  </div>
+</div>

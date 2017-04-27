@@ -18,6 +18,7 @@
       "tsconfig": "tsconfig.json",
       "prefix": "app",
       "styles": [
+        "grid.css",
         "styles.css"
       ],
       "scripts": [],

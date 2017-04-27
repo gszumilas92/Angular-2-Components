@@ -1,0 +1,50 @@
+.row {
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.col-center {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row-center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Grid of 2*/
+.width-1-2 {
+    width: 50%;
+}
+/*Grid of 3*/
+.width-1-3 {
+    width: 33%;
+}
+.width-2-3 {
+    width: 66%;
+}
+/*Grid of 5*/
+.width-1-5 {
+    width: 20%;
+}
+.width-2-5 {
+    width: 40%;
+}
+.width-3-5 {
+    width: 60%;
+}
+.width-4-5 {
+    width: 80%;
+}

@@ -1,0 +1,5 @@
+
+1. Main-content with *ngFor
+2. Style Dropdown-menu component1111
+    a. Dominant color: Royal Blue
+3. Main content becomes Employement history

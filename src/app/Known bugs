@@ -1,0 +1,3 @@
+1. Dropdown-Component: 
+    a) Last main-menu element doesnt have border-bottom which DEPENDS on situation.
+    b) Last sub-menu of last main-menu element border-bottom HITS the other BORDER.

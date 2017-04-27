@@ -1,0 +1,12 @@
+.description {
+    border: solid 1.5px #00a;
+    padding: 20px 5%;
+    font-size: 22px;
+    background-color: #fff;
+    margin: 3% 5%;
+}
+
+.img-about {
+    margin-top: 50px;/*Written to center it due to desc-header*/
+    width: 300px;
+}

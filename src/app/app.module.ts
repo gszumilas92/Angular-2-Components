@@ -4,10 +4,16 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { DropdownMenuComponent } from './dropdown-menu/dropdown-menu.component';
+import { MainContentComponent } from './main-content/main-content.component';
+import { ExperienceComponent } from './experience/experience.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DropdownMenuComponent,
+    MainContentComponent,
+    ExperienceComponent
   ],
   imports: [
     BrowserModule,
